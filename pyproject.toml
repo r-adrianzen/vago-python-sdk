@@ -39,6 +39,17 @@ Issues = "https://github.com/r-adrianzen/vago-python-sdk/issues"
 [tool.hatch.version]
 path = "vago/__init__.py"
 
+[tool.hatch.build.targets.wheel]
+packages = ["vago"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "vago/",
+    "tests/",
+    "README.md",
+    "LICENSE",
+]
+
 [tool.ruff]
 line-length = 100
 select = ["E", "F", "I", "W"]
