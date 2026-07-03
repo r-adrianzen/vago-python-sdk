@@ -3,7 +3,6 @@
 import pytest
 
 from vago import VagoClient
-from vago.exceptions import VagoAPIError
 
 
 def test_client_requires_token():

@@ -29,7 +29,7 @@ class JobsResource:
         )
 
     def sync(self, tenant_id: int | str, canal: str = "all") -> dict[str, Any]:
-        """Trigger a stock sync. canal: 'all' or 'shopify'/'mercadolibre'/'falabella'/'ripley'/'mundotec'."""
+        """Trigger a stock sync. canal: 'all' or a specific channel slug."""
         return self._client._request(
             "POST", "/api/jobs/sync/", tenant_id=tenant_id, json={"canal": canal}
         )
