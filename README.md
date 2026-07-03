@@ -11,6 +11,12 @@ Official Python SDK for the **VAGO Cloud** API.
 ## Installation
 
 ```bash
+pip install vago-cloud
+```
+
+O desde el repo:
+
+```bash
 pip install git+https://github.com/r-adrianzen/vago-python-sdk.git
 ```
 
