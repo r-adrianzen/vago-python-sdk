@@ -1,5 +1,9 @@
 # VAGO Cloud Python SDK
 
+![CI](https://github.com/r-adrianzen/vago-python-sdk/actions/workflows/ci.yml/badge.svg)
+![PyPI](https://img.shields.io/pypi/v/vago-cloud)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 Official Python SDK for the **VAGO Cloud** API.
 
 > **VAGO Cloud** syncs stock, pricing and products between a master catalog (Excel / OneDrive / Shopify) and marketplaces like Shopify, MercadoLibre, Falabella, Ripley and more.
