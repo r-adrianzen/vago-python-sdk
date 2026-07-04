@@ -1,9 +1,9 @@
 name: Publish to PyPI
 
 on:
-  push:
-    tags:
-      - 'v*'
+  # Disabled: publish on tag push. SDK is for internal use only for now.
+  # Re-enable when ready for public PyPI release.
+  workflow_dispatch:
 
 jobs:
   publish:
